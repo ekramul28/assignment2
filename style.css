@@ -164,6 +164,7 @@ img {
 
 .gamer-description {
     text-align: end;
+
 }
 
 .gamer-description h3 {
@@ -172,6 +173,45 @@ img {
 
 .gamer-description button {
     margin: 20px 0px;
+}
+
+.gamer {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-description h5 {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* funny videos section  */
+.funny-videos-header {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.funny-videos-img {
+    /* width: 242px;
+    height: 300px; */
+}
+
+.funny-videos-img-div {
+    display: grid;
+    grid-template-columns: repeat(4, 242px);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* height: 00px; */
+
+}
+
+.funny-videos-img-div .funny-videos-img:hover {
+    border: 2px solid black
 }
 
 
@@ -204,6 +244,29 @@ img {
         flex-direction: column;
         text-align: center;
         margin: 30px;
+    }
+
+    .gamer-description {
+        text-align: center;
+    }
+
+    .play-description {
+        text-align: center;
+    }
+
+    /* funny video part  */
+    .funny-videos-img-div {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin: 40px;
+    }
+
+    .funny-videos-header {
+        margin-top: 200px;
+    }
+
+    .funny-videos-header p {
+        margin: 30px 0px;
     }
 
 
