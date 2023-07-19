@@ -15,6 +15,11 @@ img {
     height: 100%;
 }
 
+
+
+
+
+
 .common-header {
     color: #0B0223;
     font-size: 48px;
@@ -197,6 +202,8 @@ img {
 
 
 
+
+
 .funny-videos-img-div {
     display: grid;
     grid-template-columns: repeat(4, 242px);
@@ -274,8 +281,9 @@ img {
 }
 
 .icons {
-    width: 40px;
-    height: 40px;
+    font-size: 40px;
+    color: white;
+
     margin-left: 30px;
     margin-bottom: 30px;
 }
