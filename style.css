@@ -195,10 +195,7 @@ img {
     margin-bottom: 40px;
 }
 
-.funny-videos-img {
-    /* width: 242px;
-    height: 300px; */
-}
+
 
 .funny-videos-img-div {
     display: grid;
@@ -220,7 +217,7 @@ img {
     justify-content: space-around;
     align-items: center;
     position: relative;
-
+    text-align: center;
     height: 800px;
 }
 
@@ -297,6 +294,49 @@ img {
     margin-top: 20px;
 }
 
+/* all game section  */
+.all-game-section {
+    height: 350px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 40px;
+}
+
+.all-game {
+
+
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+
+
+.game-div:hover {
+    border-radius: 50px;
+    border: 2px solid #FF42A5;
+    background: #fff;
+    color: #FF42A5;
+}
+
+.all-game img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.game-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
 
 
 /* responsive for mobile  */
@@ -362,11 +402,13 @@ img {
         height: 300px;
     }
 
+
+
     .play-img2 {
         width: 150px;
         height: 170px;
         top: 625px;
-        right: 300px;
+        right: 270px;
     }
 
     .play-description p {
@@ -396,6 +438,24 @@ img {
         gap: 10px;
     }
 
+    .all-game {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+    }
+
+
+
+    .all-game p {
+        font-size: 10px;
+    }
+
+    .all-game img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+
 
 
 }
@@ -409,4 +469,20 @@ img {
 
 
 /* responsive for medium device */
-@media screen and (min-width:576px) and (max-width:960px) {}
+@media screen and (min-width:576px) and (max-width:960px) {
+    .funny-videos-img-div {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        margin: 40px;
+    }
+
+    .play {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .we-are-gamer {
+        margin: 10px
+    }
+}
