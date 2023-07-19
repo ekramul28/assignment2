@@ -24,7 +24,7 @@ img {
 
 .common-para {
     color: #534C64;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: lowercase;
     margin: 10px 0px;
@@ -214,6 +214,89 @@ img {
     border: 2px solid black
 }
 
+/* play section start hear  */
+.play {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+
+    height: 800px;
+}
+
+.play-description {
+    text-align: end;
+}
+
+.play-img1 {
+    width: 500px;
+    height: 550px;
+}
+
+.play-img2 {
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    right: 450px;
+}
+
+/* footer section start hear  */
+.footer {
+    height: 400px;
+    color: white;
+    background-color: #0B0223;
+    text-align: center;
+    padding: 60px;
+
+
+}
+
+.footer-logo {
+    justify-content: center;
+
+}
+
+.footer-link {
+    margin: 40px 0px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.g {
+    color: white;
+}
+
+.footer-img {
+    width: 60px;
+}
+
+.icons {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.span {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
 
 
 /* responsive for mobile  */
@@ -267,6 +350,50 @@ img {
 
     .funny-videos-header p {
         margin: 30px 0px;
+    }
+
+    .play {
+        flex-direction: column;
+
+    }
+
+    .play-img1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .play-img2 {
+        width: 150px;
+        height: 170px;
+        top: 625px;
+        right: 300px;
+    }
+
+    .play-description p {
+        margin: 50px 0px;
+    }
+
+    /* footer style  */
+    .footer {
+        height: 600px;
+        padding: 20px;
+    }
+
+    .footer-icon-link {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-link {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .span-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 
 
